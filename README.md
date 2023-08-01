@@ -3,9 +3,9 @@
 This web application is a movie database that allows users to explore popular movies, view their details, and find useful links related to each movie.
 ## Features:
 
-*Carousel: The home page displays a carousel of popular movies fetched from the TMDB API. Each carousel item provides a link to the corresponding movie's detail page.
+* Carousel: The home page displays a carousel of popular movies fetched from the TMDB API. Each carousel item provides a link to the corresponding movie's detail page.
 
-*Movie List: The home page also shows a list of popular movies, where users can click on each movie card to view more details.
+* Movie List: The home page also shows a list of popular movies, where users can click on each movie card to view more details.
 
 *Movie Detail Page: The movie detail page shows comprehensive information about a selected movie, including its title, tagline, rating, runtime, release date, genres, and synopsis.
 
