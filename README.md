@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Movie Database Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web application is a movie database that allows users to explore popular movies, view their details, and find useful links related to each movie.
+## Features:
 
-## Available Scripts
+Carousel: The home page displays a carousel of popular movies fetched from the TMDB API. Each carousel item provides a link to the corresponding movie's detail page.
 
-In the project directory, you can run:
+Movie List: The home page also shows a list of popular movies, where users can click on each movie card to view more details.
 
-### `npm start`
+Movie Detail Page: The movie detail page shows comprehensive information about a selected movie, including its title, tagline, rating, runtime, release date, genres, and synopsis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Useful Links: The movie detail page offers useful links such as the movie's official homepage and IMDb page (if available) for further exploration.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Production Companies: The movie detail page lists the production companies involved in making the movie, along with their logos.
 
-### `npm test`
+## Technologies Used:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-React: The front-end of the web app is built using React, a popular JavaScript library for building user interfaces.
 
-### `npm run build`
+-React Router: The application uses React Router for handling different routes and page navigation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-TMDB API: The app fetches movie data from The Movie Database (TMDB) API to display information about movies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-React Responsive Carousel: For creating an attractive carousel to showcase popular movies on the home page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-React Loading Skeleton: To display skeleton loaders while fetching movie data to improve user experience.
 
-### `npm run eject`
+### How to Run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-Clone the repository to your local machine.
+-Navigate to the project directory and install dependencies using npm install.
+-Obtain an API key from the TMDB website and replace <YOUR_API_KEY> in the API URLs of Home.js --and Movie.js files.
+-Run the application using npm start.
+-The app will be available at http://localhost:3000 in your browser.
 
 ### Deployment
+- live on netlify [https://keen-sawine-f557da.netlify.app/]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
